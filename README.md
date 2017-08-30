@@ -34,5 +34,3 @@ static-http --help
 
 for help.
 
-The default root directory is ./ and port is 23333
-
