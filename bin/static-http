@@ -6,6 +6,6 @@ var staticHttpServer = require("../lib/StaticHttpServer.js");
 commander
     .option("-r, --root <rootdir>", "Set the root directory of the server. (Default to ./)")
     .option("-p, --port <port>", "Set the port that the server listens. (Default to 23333)")
-    .option("-h, --host <hostname>", "Set the host name of the server. (Default to 0.0.0.0)")
+    .option("-n, --host <hostname>", "Set the host name of the server. (Default to 0.0.0.0)")
     .parse(process.argv);
 staticHttpServer(commander.root, commander.port, commander.host);

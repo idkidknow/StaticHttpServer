@@ -6,21 +6,21 @@ A Static Http Server
 
 Make sure you have installed Node.js.
 
-Clone https://github.com/idkidknow/StaticHttpServer.git into anywhere you want. Then type the command: 
+### Install
 
 ```
 
-cd StaticHttpServer
-
-npm install
+npm install http-server-static -g
 
 ```
 
-Now you can use it.
+### Use
+
+Use
 
 ```
 
-npm run start [root] [port]
+static-http -h
 
 ```
 
@@ -28,9 +28,11 @@ or
 
 ```
 
-node StaticHttpServer.js [root] [port]
+static-http --help
 
 ```
+
+for help.
 
 The default root directory is ./ and port is 23333
 
