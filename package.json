@@ -1,14 +1,15 @@
 {
-  "name": "statichttpserver",
+  "name": "http-server-static",
   "version": "0.0.1",
   "description": "A Static Http Server",
-  "main": "StaticHttpServer.js",
+  "main": "index.js",
   "dependencies": {
+    "commander": "^2.11.0",
     "mime": "^1.4.0"
   },
   "devDependencies": {},
   "scripts": {
-    "start": "node StaticHttpServer.js"
+    "start": "bin/static-http"
   },
   "repository": {
     "type": "git",
@@ -24,5 +25,8 @@
   "bugs": {
     "url": "https://github.com/idkidknow/StaticHttpServer/issues"
   },
-  "homepage": "https://github.com/idkidknow/StaticHttpServer#readme"
+  "homepage": "https://github.com/idkidknow/StaticHttpServer#readme",
+  "bin" : {
+    "static-http" : "./bin/static-http"
+  }
 }
